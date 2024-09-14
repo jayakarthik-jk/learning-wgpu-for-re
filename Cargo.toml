@@ -1,0 +1,10 @@
+[package]
+name = "re"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["api", "core"]
+
+[dependencies]
+re-core = { path = "./core" }

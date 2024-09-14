@@ -1,0 +1,13 @@
+[package]
+name = "re-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+wgpu = "22.1"
+winit = "0.30"
+pollster = "0.3"
+bytemuck = "1.18"
+rand = "0.8"
