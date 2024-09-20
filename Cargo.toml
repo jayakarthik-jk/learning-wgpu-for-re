@@ -8,3 +8,5 @@ members = ["api", "core"]
 
 [dependencies]
 re-core = { path = "./core" }
+re-api = { path = "./api" }
+peniko = "0.1"

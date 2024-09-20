@@ -30,7 +30,7 @@ pub(crate) fn create_surface_config(
     adapter: &Adapter,
     size: &PhysicalSize<u32>,
 ) -> SurfaceConfiguration {
-    let surface_caps = surface.get_capabilities(&adapter);
+    let surface_caps = surface.get_capabilities(adapter);
     let format = surface_caps
         .formats
         .iter()
